@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca0705db-9836-45de-9883-2ef8860bd56f" name="Default Changelist" comment="" />
+    <list default="true" id="ca0705db-9836-45de-9883-2ef8860bd56f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/functional/api/ordersTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,13 +54,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.mocharc.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/functional/api/ordersTest.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -87,6 +96,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -112,37 +124,37 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="905" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TourismWeb20086462" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourismWeb20086462" type="462c0819:PsiDirectoryNode" />
+              <item name="Test-tourismWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test-tourismWeb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TourismWeb20086462" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourismWeb20086462" type="462c0819:PsiDirectoryNode" />
+              <item name="Test-tourismWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test-tourismWeb" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TourismWeb20086462" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourismWeb20086462" type="462c0819:PsiDirectoryNode" />
+              <item name="Test-tourismWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test-tourismWeb" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="functional" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TourismWeb20086462" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourismWeb20086462" type="462c0819:PsiDirectoryNode" />
+              <item name="Test-tourismWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test-tourismWeb" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="functional" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
@@ -151,9 +163,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -167,6 +181,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/functional/api" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -1495,11 +1514,12 @@
       <workItem from="1572795361203" duration="2218000" />
       <workItem from="1572805687024" duration="6348000" />
       <workItem from="1572818398977" duration="4000" />
+      <workItem from="1572820680939" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60420000" />
+    <option name="totallyTimeSpent" value="60496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1511,9 +1531,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="905" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1627907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26131222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -1527,7 +1548,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="REST Client" order="9" weight="0.32168674" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.30240965" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.34909597" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003524" side_tool="true" weight="0.27228916" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1661,7 +1682,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/api/tourismsTest.js" />
-    <entry file="file://$PROJECT_DIR$/test/functional/api/ordersTest.js" />
     <entry file="file://$PROJECT_DIR$/.eslintrc.json" />
     <entry file="file://$PROJECT_DIR$/test/functional/api/searchTest.js" />
     <entry file="file://$PROJECT_DIR$/routes/users.js">
@@ -1711,6 +1731,9 @@
           <caret selection-end-line="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/api/ordersTest.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
