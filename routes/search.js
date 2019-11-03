@@ -1,10 +1,11 @@
+/*eslint no-console: "off" */
 let Order= require("../models/orders")
 let express = require("express")
 let router = express.Router()
 let mongoose = require("mongoose")
 //let uriUtil = require("mongodb-uri")
 
-var mongodbUri ="mongodb+srv://PengyuZhao:980628@attractions-5clzp.mongodb.net/Tourismsdb?retryWrites=true&w=majority"
+let mongodbUri ="mongodb+srv://PengyuZhao:980628@attractions-5clzp.mongodb.net/Tourismsdb?retryWrites=true&w=majority"
 
 mongoose.connect(mongodbUri)
 
@@ -16,7 +17,7 @@ router.findOneWithPart = (req, res) => {
 
   res.setHeader("Content-Type", "application/json")
 
-  var reg = new RegExp(req.body.Scheduler, "i")
+  let reg = new RegExp(req.body.Scheduler, "i")
 
   Order.find({Scheduler: {$regex: reg}}, function (err, order) {
     if (err)
