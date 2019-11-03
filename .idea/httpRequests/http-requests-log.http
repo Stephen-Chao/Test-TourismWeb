@@ -1,0 +1,542 @@
+POST http://localhost:3000/search/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler" : "M"}
+
+<> 2019-10-27T035803.200.json
+
+###
+
+PUT http://localhost:3000/order/5db234d71c9d440000681f0d/decrease_booked
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"remaintickets" : 969 ,"attractionsname": "Bishops_Palace","ticketprice" : 15}
+
+<> 2019-10-27T033916.200.json
+
+###
+
+PUT http://localhost:3000/order/5db234d71c9d440000681f0d/increase_booked
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"remaintickets" : 969 ,"attractionsname": "Bishops_Palace","ticketprice" : 15}
+
+<> 2019-10-27T033856.200.json
+
+###
+
+PUT http://localhost:3000/tourism/5db051621c9d440000f65f99/decrease_tickets
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"remaintickets" : 969 ,"attractionsname": "Bishops_Palace","ticketprice" : 15}
+
+<> 2019-10-27T033747.200.json
+
+###
+
+PUT http://localhost:3000/tourism/5db051621c9d440000f65f99/increase_tickets
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"remaintickets" : 969 ,"attractionsname": "Bishops_Palace","ticketprice" : 15}
+
+<> 2019-10-27T033718.200.json
+
+###
+
+DELETE http://localhost:3000/order/5db509b68a39220ce7b4a7ef
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"remaintickets" : 969 ,"attractionsname": "Bishops_Palace","ticketprice" : 15}
+
+<> 2019-10-27T031250.200.json
+
+###
+
+DELETE http://localhost:3000/tourism/5db509e28a39220ce7b4a7f0
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"remaintickets" : 969 ,"attractionsname": "Bishops_Palace","ticketprice" : 15}
+
+<> 2019-10-27T031208.200.json
+
+###
+
+POST http://localhost:3000/tourism/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"remaintickets" : 969 ,"attractionsname": "Bishops_Palace","ticketprice" : 15}
+
+<> 2019-10-27T030715.200.json
+
+###
+
+POST http://localhost:3000/order/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"NumOfBooked" : 3, "Scheduler" : "工具人", "PaymentMethod" : "打白条","Attraction" : "Test"}
+
+<> 2019-10-27T030630.200.json
+
+###
+
+POST http://localhost:3000/order/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"NumOfBooked" : 3, "Scheduler" : "工具人", "PaymentMethod" : "打白条","Attraction" : "Test"}
+
+<> 2019-10-27T125205.200.json
+
+###
+
+POST http://localhost:3000/order/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{                 NumOfBooked : 3, Scheduler : "工具人", PaymentMethod : "打白条",Attraction : "Test"}
+
+<> 2019-10-27T124716.400.html
+
+###
+
+POST http://localhost:3000/order/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"NumOfBooked" : 3, "Scheduler" : "Stephen","PaymentMethod" : "Visa",Attraction:"Tramore"}
+
+<> 2019-10-27T123949.400.html
+
+###
+
+POST http://localhost:3000/order/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"NumOfBooked" : 3, "Scheduler" : "Stephen","PaymentMethod" : "Visa",Attraction:"Tramore"}
+
+<> 2019-10-27T123941.400.html
+
+###
+
+POST http://localhost:3000/order/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"NumOfBooked" : 3, "Scheduler" : "Stephen","PaymentMethod" : "Visa",Attraction:"Tramore"}
+
+<> 2019-10-27T123840.400.html
+
+###
+
+POST http://localhost:3000/tourism/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"attractionsname" : "Bishops_Palace", "ticketprice" : 15,"remaintickets" : 969}
+
+<> 2019-10-27T123617.200.json
+
+###
+
+POST http://localhost:3000/tourism/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"attractionsname" : "Bishops_Palace", "ticketprice" : 15,"remaintickets" : 969}
+
+<> 2019-10-27T123425.200.json
+
+###
+
+POST http://localhost:3000/tourism/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"NumOfBooked ": 3,"Scheduler" : "工具人" ,"PaymentMethod" : "打白条" ,"Attraction" : "Test"}
+
+<> 2019-10-26T094348.200.json
+
+###
+
+GET http://localhost:3000/order/5db24acb2945da0413e13a14
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+<> 2019-10-26T094202.200.json
+
+###
+
+GET http://localhost:3000/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+<> 2019-10-26T094139.200.json
+
+###
+
+GET http://localhost:3000/tourism/5db050cb1c9d440000f65f97
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+<> 2019-10-26T094100.200.json
+
+###
+
+GET http://localhost:3000/tourism
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+<> 2019-10-26T094032.200.json
+
+###
+
+GET http://localhost:3000/tourism
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+<> 2019-10-26T093936.200.json
+
+###
+
+GET http://localhost:3000/tourism
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+###
+
+GET http://localhost:3000/tourism
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+###
+
+GET http://localhost:3000/tourism
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+###
+
+POST http://localhost:3000/search/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"工"}
+
+<> 2019-10-26T052052.200.json
+
+###
+
+POST http://localhost:3000/search/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "Scheduler" :"o"}
+
+<> 2019-10-26T051954.200.json
+
+###
+
+POST http://localhost:3000/search/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ Scheduler :"o"}
+
+<> 2019-10-26T051946.400.html
+
+###
+
+POST http://localhost:3000/search/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler ":"o"}
+
+<> 2019-10-26T051248.200.json
+
+###
+
+POST http://localhost:3000/search/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler ":"o"}
+
+<> 2019-10-26T051134.404.html
+
+###
+
+POST http://localhost:3000/search/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler ":"o"}
+
+<> 2019-10-26T050633.200.json
+
+###
+
+POST http://localhost:3000/search/order
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler ":"o"}
+
+<> 2019-10-26T050625.404.html
+
+###
+
+POST http://localhost:3000/search/tourism
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler":"M"}
+
+<> 2019-10-26T050541.404.html
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "ow"}
+
+<> 2019-10-26T050514-1.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "ow"}
+
+<> 2019-10-26T050514.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "ow"}
+
+<> 2019-10-26T050513-1.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "ow"}
+
+<> 2019-10-26T050513.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "ow"}
+
+<> 2019-10-26T050507.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "ow"}
+
+<> 2019-10-26T050354.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "M"}
+
+<> 2019-10-26T050329.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "M"}
+
+<> 2019-10-26T045857.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "W"}
+
+<> 2019-10-26T045848.200.json
+
+###
+
+GET http://localhost:3000/order/5db234d71c9d440000681f0d
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "W"}
+
+<> 2019-10-26T045831.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "W"}
+
+<> 2019-10-26T045807.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " : "W"}
+
+<> 2019-10-26T045253.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " :" O"}
+
+<> 2019-10-26T045151.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " :" O"}
+
+<> 2019-10-26T043735.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " :" O"}
+
+<> 2019-10-26T043206.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-10-26T042728.200.json
+
+###
+
+POST http://localhost:3000/search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Scheduler " :" O"}
+
+<> 2019-10-26T042722.200.json
+
+###
+

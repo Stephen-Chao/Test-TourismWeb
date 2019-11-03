@@ -1,0 +1,9 @@
+{
+  "message": "Remaintickets Successfully Decrease!",
+  "data": {
+    "remaintickets": 999,
+    "_id": "5db051621c9d440000f65f99",
+    "attractionsname": "Reginalds_Tower",
+    "ticketprice": 20
+  }
+}

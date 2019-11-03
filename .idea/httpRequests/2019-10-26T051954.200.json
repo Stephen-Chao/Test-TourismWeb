@@ -1,0 +1,16 @@
+[
+  {
+    "NumOfBooked": 2,
+    "_id": "5db236441c9d440000681f10",
+    "Scheduler": "Owen",
+    "PaymentMethod": "Visa",
+    "Attraction": "Tramore"
+  },
+  {
+    "NumOfBooked": 2,
+    "_id": "5db236af1c9d440000681f11",
+    "Scheduler": "Owen",
+    "PaymentMethod": "MasterCard",
+    "Attraction": "Crystal"
+  }
+]

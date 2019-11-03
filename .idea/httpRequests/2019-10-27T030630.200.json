@@ -1,0 +1,11 @@
+{
+  "message": "Order Successfully Added!",
+  "data": {
+    "NumOfBooked": 3,
+    "_id": "5db509b68a39220ce7b4a7ef",
+    "Scheduler": "工具人",
+    "PaymentMethod": "打白条",
+    "Attraction": "Test",
+    "__v": 0
+  }
+}

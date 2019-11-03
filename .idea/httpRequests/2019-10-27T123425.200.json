@@ -1,0 +1,10 @@
+{
+  "message": "Attraction Successfully Added!",
+  "data": {
+    "remaintickets": 969,
+    "_id": "5db4d8018a39220ce7b4a7ec",
+    "attractionsname": "Bishops_Palace",
+    "ticketprice": 15,
+    "__v": 0
+  }
+}

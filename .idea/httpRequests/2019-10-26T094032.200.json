@@ -1,0 +1,39 @@
+[
+  {
+    "remaintickets": 999,
+    "_id": "5db0501a1c9d440000f65f94",
+    "attractionsname": "Dunmore",
+    "ticketprice": 15
+  },
+  {
+    "remaintickets": 1013,
+    "_id": "5db050cb1c9d440000f65f97",
+    "attractionsname": "Tramore",
+    "ticketprice": 10
+  },
+  {
+    "remaintickets": 978,
+    "_id": "5db051061c9d440000f65f98",
+    "attractionsname": "Crystal",
+    "ticketprice": 15
+  },
+  {
+    "remaintickets": 999,
+    "_id": "5db051621c9d440000f65f99",
+    "attractionsname": "Reginalds_Tower",
+    "ticketprice": 20
+  },
+  {
+    "remaintickets": 996,
+    "_id": "5db461951c9d44000086ce80",
+    "attractionsname": "Waterford_Wall",
+    "ticketprice": 0
+  },
+  {
+    "remaintickets": 969,
+    "_id": "5db467dc55b0c20d08e8c3e4",
+    "attractionsname": "Test",
+    "ticketprice": 15,
+    "__v": 0
+  }
+]

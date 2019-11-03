@@ -1,0 +1,3 @@
+- test/functional/api/ordersTest.js
+- test/functional/api/searchTest.js
+- test/functional/api/tourismsTest.js
