@@ -51,7 +51,7 @@ describe("Tourisms",  () => {
           .set("Accept", "application/json")
           .expect("Content-Type", /json/)
           .expect(200)
-          .expect({message: "Attraction NOT Found!"}, (err, res) => {
+          .expect({message: "Attraction NOT Found!"}, () => {
 
           })
       })
@@ -165,9 +165,9 @@ describe("Tourisms",  () => {
           return request(server)
             .put("/tourism/8848/increase_tickets")
             .expect(200)
-            .then(res => {
+            .then(
               expect({ message: "Attraction NOT Found!" })
-            })
+            )
 
         })
       })
@@ -209,9 +209,9 @@ describe("Tourisms",  () => {
         return request(server)
           .put("/tourism/8848/decrease_tickets")
           .expect(200)
-          .then(res => {
+          .then(
             expect({ message: "Attraction NOT Found!" })
-          })
+          )
 
       })
     })

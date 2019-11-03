@@ -51,7 +51,7 @@ describe("Orders",  () => {
           .set("Accept", "application/json")
           .expect("Content-Type", /json/)
           .expect(200)
-          .expect({message: "Order NOT Found!"}, (err, res) => {
+          .expect({message: "Order NOT Found!"}, () => {
 
           })
       })
@@ -166,9 +166,9 @@ describe("Orders",  () => {
           return request(server)
             .put("/order/8848/increase_booked")
             .expect(200)
-            .then(res => {
+            .then(
               expect({ message: "Order NOT Found!" })
-            })
+            )
 
         })
       })
@@ -210,9 +210,9 @@ describe("Orders",  () => {
         return request(server)
           .put("/order/999999/decrease_booked")
           .expect(200)
-          .then(res => {
+          .then(
             expect({ message: "Order NOT Found!" })
-          })
+          )
       })
     })
   })
