@@ -155,5 +155,8 @@ Name:PengyuZhao
  ## Extra features.
  *In addition, in order to prevent data changes in the database, this test uses the principle of first increasing the number of data and then reducing the test, and
  And each test needs to copy the id of the test data into the test program (it can be successful without adding, but will increase the number of database data).*
+ ## Github Link
 
-[datamodel]: ./model.png
+ https://github.com/Stephen-Chao/Test-tourismWeb
+
+[datamodel]: model.png
