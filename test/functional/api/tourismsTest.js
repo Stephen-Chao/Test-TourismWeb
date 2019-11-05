@@ -62,7 +62,7 @@ describe("Tourisms",  () => {
     describe("when the id is valid", () => {
       it("should return a message and the Attraction deleted", () => {
         return request(server)
-          .delete("/tourism/5db467dc55b0c20d08e8c3e4")
+          .delete("/tourism/5dc14aa55ecabb04115e7e75")
           .expect(200)
           .then(resp => {
             expect(resp.body).to.include({

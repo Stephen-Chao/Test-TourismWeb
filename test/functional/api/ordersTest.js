@@ -20,7 +20,7 @@ describe("Orders",  () => {
           })
           expect(result).to.deep.include({PaymentMethod: "Visa", Scheduler: "Owen",Attraction: "Tramore"})
           expect(result).to.deep.include({PaymentMethod: "花呗", Scheduler: "Meng",Attraction: "Waterford_Wall"})
-          done(err)
+          done(err);
         })
     })
   })
@@ -62,7 +62,7 @@ describe("Orders",  () => {
     describe("when the id is valid", () => {
       it("should return a message and the order deleted", () => {
         return request(server)
-          .delete("/order/5db467dd55b0c20d08e8c3e5")
+          .delete("/order/5dc14aa25ecabb04115e7e74")
           .expect(200)
           .then(resp => {
             expect(resp.body).to.include({
