@@ -3,8 +3,8 @@ Name:PengyuZhao
 ## Overview.
 *This test uses the api method to test, but the program uses the mongo online database method to test, hope to understand.*
  
-##API endpoints.
-###tourismsTest
+## API endpoints.
+### tourismsTest
 
  1. Test all attractions (GET /tourism)
  2. Test the sights by id (GET /tourism/:id)
