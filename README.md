@@ -33,18 +33,18 @@ Name:PengyuZhao
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id 
- 10. Test the add order and its attributes (POST /order/)
+ + POST /order/ - Test the add order and its attributes 
     1. Verify that the data exists 
- 11. Test increase the number of tickets purchased by id (PUT /order/:id/increase_booked)
+ + PUT /order/:id/increase_booked - Test increase the number of tickets purchased by id
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id 
- 12. Test reduce the number of tickets purchased by id (PUT /order/:id/decrease_booked)
+ + PUT /order/:id/decrease_booked - Test reduce the number of tickets purchased by id
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id
 ### searchTest
- 13. Fuzzy search through the part of the Scheduler (POST /search/order)
+ + POST /search/order - Fuzzy search through the part of the Scheduler
   
  ## Data model.
  
