@@ -24,7 +24,7 @@ Name:PengyuZhao
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id
- ###ordersTest 
+ ### ordersTest 
  7. Test all orders (GET /order)
  8. Test the order by id (GET /order/:id)
     1. Enter a valid id 
@@ -43,7 +43,7 @@ Name:PengyuZhao
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id
-###searchTest
+### searchTest
  13. Fuzzy search through the part of the Scheduler (POST /search/order)
   
  ## Data model.
