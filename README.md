@@ -6,30 +6,30 @@ Name:PengyuZhao
 ## API endpoints.
 ### tourismsTest
 
- 1. Test all attractions (GET /tourism)
- 2. Test the sights by id (GET /tourism/:id)
+ + GET /tourism - Test all attractions 
+ + GET /tourism/:id - Test the sights by id 
     1. Enter a valid id 
     2. Enter invalid id 
- 3. Test the attraction delete by id (DELETE /tourism/)
+ + DELETE /tourism/ - Test the attraction delete by id 
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id 
- 4. Test the added attractions and their properties (POST /tourism/)
+ + POST /tourism/ - Test the added attractions and their properties 
     1. Verify that the data exists 
- 5. Test the number of tickets increaced by id (PUT /tourism/:id/increase_tickets)
+ + PUT /tourism/:id/increase_tickets - Test the number of tickets increaced by id
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id 
- 6. Test the number of tickets reduced by id (PUT /tourism/:id/decrease_tickets)
+ + PUT /tourism/:id/decrease_tickets - Test the number of tickets reduced by id 
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id
  ### ordersTest 
- 7. Test all orders (GET /order)
- 8. Test the order by id (GET /order/:id)
+ + GET /order - Test all orders
+ + GET /order/:id - Test the order by id 
     1. Enter a valid id 
     2. Enter invalid id 
- 9. Test the order delete by id (DELETE /order/)
+ + DELETE /order/ - Test the order delete by id
     1. Enter a valid id 
         1. Verify that the data exists 
     2. Enter invalid id 
