@@ -1,6 +1,7 @@
 # Assignment 1 - Agile Software Practice.
-Name:PengyuZhao 
+Name:PengyuZhao (20086462)
 ## Overview.
+*The web can manage tourist attractions, and the administrator can use the webpage to add, delete, change, and find the scenic spots. It is also possible to operate on orders.*
 *This test uses the api method to test, but the program uses the mongo online database method to test, hope to understand.*
  
 ## API endpoints.
