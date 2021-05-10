@@ -12,7 +12,7 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mongo": "^0.1.0",
     "mongo-uri": "^0.1.2",
     "mongodb-uri": "^0.9.7",
